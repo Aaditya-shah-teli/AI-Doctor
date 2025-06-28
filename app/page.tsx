@@ -1,7 +1,7 @@
 "use client";
 
-import { FeatureBentoGrid } from "@/components/ui/bento-grid";
-import { Button } from "@/components/ui/button";
+import { FeatureBentoGrid } from "../components/ui/bento-grid"
+import { Button } from "../components/ui/button";
 import { UserButton, useUser } from "@clerk/nextjs";
 import { motion } from "motion/react";
 import Link from "next/link";

@@ -51,7 +51,7 @@ export default function HeroSectionOne() {
         >
           With AI, you can launch your website in hours, not days. Try our best
           in class, state of the art, cutting edge AI tools to get your website
-          up.
+          up.👍
         </motion.p>
         <motion.div
           initial={{

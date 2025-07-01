@@ -28,7 +28,7 @@ const menuOptions = [
 const AppHeader = () => {
   return (
     <div className='flex justify-between items-center p-4 shadow-sm p-10 md:px-20 lg:px-40 xl:px-40'>
-        <Image src={"/me.jpeg"} href={"/me.jpeg"} alt="Profile Picture" width={50} height={50} className='rounded-full' />
+        <Image src={"/me.jpeg"} alt="Profile Picture" width={50} height={50} className='rounded-full' />
         <div className=' hidden md:flex flex gap-12 items-center'>
             {
                 menuOptions.map((option, index) => (
